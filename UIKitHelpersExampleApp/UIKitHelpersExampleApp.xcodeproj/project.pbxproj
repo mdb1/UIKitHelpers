@@ -11,6 +11,7 @@
 		32135E4A285B9A5600626EA8 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32135E49285B9A5600626EA8 /* HomePresenter.swift */; };
 		32135E4C285B9D3900626EA8 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32135E4B285B9D3900626EA8 /* HomeSection.swift */; };
 		32135E4F285B9DEF00626EA8 /* AdaptableStackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32135E4E285B9DEF00626EA8 /* AdaptableStackViewViewController.swift */; };
+		32135E52285BA06F00626EA8 /* ImageDownloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32135E51285BA06F00626EA8 /* ImageDownloaderViewController.swift */; };
 		323D0A4E285B667B004E7559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D0A4D285B667B004E7559 /* AppDelegate.swift */; };
 		323D0A57285B667C004E7559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323D0A56285B667C004E7559 /* Assets.xcassets */; };
 		323D0A5A285B667C004E7559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323D0A58285B667C004E7559 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,7 @@
 		32135E49285B9A5600626EA8 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		32135E4B285B9D3900626EA8 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
 		32135E4E285B9DEF00626EA8 /* AdaptableStackViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptableStackViewViewController.swift; sourceTree = "<group>"; };
+		32135E51285BA06F00626EA8 /* ImageDownloaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderViewController.swift; sourceTree = "<group>"; };
 		323D0A4A285B667B004E7559 /* UIKitHelpersExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitHelpersExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323D0A4D285B667B004E7559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		323D0A56285B667C004E7559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		32135E45285B99D600626EA8 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				32135E50285BA05F00626EA8 /* ImageDownloader */,
 				32135E4D285B9D4700626EA8 /* AdaptableStack */,
 				32135E46285B99DB00626EA8 /* Home */,
 			);
@@ -95,6 +98,14 @@
 				32135E4E285B9DEF00626EA8 /* AdaptableStackViewViewController.swift */,
 			);
 			path = AdaptableStack;
+			sourceTree = "<group>";
+		};
+		32135E50285BA05F00626EA8 /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				32135E51285BA06F00626EA8 /* ImageDownloaderViewController.swift */,
+			);
+			path = ImageDownloader;
 			sourceTree = "<group>";
 		};
 		323D0A41285B667B004E7559 = {
@@ -301,6 +312,7 @@
 				323D0A4E285B667B004E7559 /* AppDelegate.swift in Sources */,
 				32135E48285B99F100626EA8 /* HomeViewController.swift in Sources */,
 				32135E4A285B9A5600626EA8 /* HomePresenter.swift in Sources */,
+				32135E52285BA06F00626EA8 /* ImageDownloaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

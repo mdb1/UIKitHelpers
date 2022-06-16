@@ -54,7 +54,7 @@ final class HomePresenter {
             case .adaptableStackView:
                 return AdaptableStackViewViewController()
             case .imageDownloader:
-                return UIViewController()
+                return ImageDownloaderViewController()
             }
         }
     }
