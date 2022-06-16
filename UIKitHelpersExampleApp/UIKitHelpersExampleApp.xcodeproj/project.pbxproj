@@ -121,6 +121,7 @@
 				323D0A46285B667B004E7559 /* Sources */,
 				323D0A47285B667B004E7559 /* Frameworks */,
 				323D0A48285B667B004E7559 /* Resources */,
+				32F4FF8B285B68BC000B92B6 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -141,6 +142,7 @@
 				323D0A5C285B667C004E7559 /* Sources */,
 				323D0A5D285B667C004E7559 /* Frameworks */,
 				323D0A5E285B667C004E7559 /* Resources */,
+				32135E43285B695900626EA8 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -208,6 +210,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32135E43285B695900626EA8 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\nswift run -c release swiftformat \"${PROJECT_DIR}/../\"\n";
+		};
+		32F4FF8B285B68BC000B92B6 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\nswift run -c release swiftformat \"${PROJECT_DIR}/../\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		323D0A46285B667B004E7559 /* Sources */ = {

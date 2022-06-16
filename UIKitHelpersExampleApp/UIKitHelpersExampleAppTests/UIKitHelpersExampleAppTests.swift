@@ -5,7 +5,7 @@
 //  Created by Manu on 16/06/2022.
 //
 
-import XCTest
 @testable import UIKitHelpersExampleApp
+import XCTest
 
 class UIKitHelpersExampleAppTests: XCTestCase {}

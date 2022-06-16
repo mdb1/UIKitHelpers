@@ -15,4 +15,3 @@ class ViewController: UIViewController {
         print(UIKitHelpers().text)
     }
 }
-
