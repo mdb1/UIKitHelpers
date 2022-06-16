@@ -38,10 +38,7 @@ public final class AdaptableStackView: UIStackView {
             axis = .horizontal
             alignment = .firstBaseline
         }
-        setNeedsLayout()
 
-        UIView.animate(withDuration: 0.25) {
-            self.layoutIfNeeded()
-        }
+        animateLayout()
     }
 }

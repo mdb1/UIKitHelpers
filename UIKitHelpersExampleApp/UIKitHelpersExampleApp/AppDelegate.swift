@@ -19,7 +19,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         guard let window = window else { fatalError("Can't start without a window") }
 
-        navigationController.setViewControllers([ViewController()], animated: true)
+        navigationController.setViewControllers([HomeViewController()], animated: true)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
