@@ -11,15 +11,23 @@ import UIKitHelpers
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .cyan
-        setUpAdaptableStack()
+        setUpView()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         displayNotImplementedYetToast()
     }
+}
 
+extension ViewController: ViewSetUpping {
+    func setUpView() {
+        view.backgroundColor = .systemBackground
+        setUpAdaptableStack()
+    }
+}
+
+private extension ViewController {
     func setUpAdaptableStack() {
         let stack = AdaptableStackView(.horizontal, distribution: .fillEqually, alignment: .center, spacing: 8)
         view.addSubview(stack)
