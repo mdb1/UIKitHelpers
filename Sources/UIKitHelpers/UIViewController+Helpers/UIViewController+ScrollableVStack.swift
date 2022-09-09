@@ -30,6 +30,7 @@ public extension UIViewController {
         scrollView.pin(.bottom, to: .bottomMargin, of: view)
         contentView.pinEdges()
         contentView.pin(.width, to: .width, of: scrollView)
+        contentView.pin(.height, to: .height, of: scrollView, priority: .defaultLow)
         setUpVStack(vStack, in: contentView, insets: insets)
     }
 
